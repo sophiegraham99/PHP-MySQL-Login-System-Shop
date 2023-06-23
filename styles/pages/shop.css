@@ -1,0 +1,52 @@
+#shipping-banner {
+  background-color: var(--myrtle);
+  text-align: center;
+  padding: 2px;
+}
+#shipping-banner h3 {
+  font-size: 18px;
+  color: #fff;
+}
+#shipping-banner i {
+  margin-right: 20px;
+  font-size: 25px;
+}
+#shipping-banner a {
+  text-decoration: underline;
+  color: #fff;
+  margin-left: 10px;
+}
+
+  #shop .products {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-wrap: wrap;
+  }
+  #shop .product {
+    text-align: center;
+    background: linear-gradient(to top, var(--lavender) 0%, var(--lavender) 40%, var(--purewhite) 40%, var(--purewhite) 100%);
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 20px;
+    margin:20px;
+  }
+  #shop .product img {
+    width: 70%;
+  }
+  #shop .product .name {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  #shop .product .price {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  #shop .product .desc {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  #shop .product button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }

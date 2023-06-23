@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&family=Montserrat&display=swap");
+/* DOUGHNUTS -------------------------------*/
+
+
+/* variables for colors */
+:root {
+  --purewhite: #ffffff;
+  --magnolia: #e4e4e9;
+  --linen: #fff1e6;
+  --misty-rose: #fde2e4;
+  --mimi-pink: #fad2e1;
+  --mint-cream: #e2ece9;
+  --might-blue: #bee1e6;
+  --isabelline: #f0efeb;
+  --lavender: #dfe7fd;
+  --periwinkle: #cddafd;
+  --myrtle: #020b4a;
+
+  --fira: "Fira Sans", sans-serif;
+  --montseratt: "Montserrat", sans-serif;
+}
+
+/* variables for fonts */
+.button-classic,
+.container-right button {
+  border: 3px solid #020b4a;
+  border-radius: 10px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.2s ease;
+  font-size: 27px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.button-classic a,
+.container-right button a {
+  text-decoration: none;
+  color: #020b4a;
+}
+
+.button-classic:hover,
+.container-right button:hover {
+  background-color: #020b4a;
+}
+
+.button-classic:hover a,
+.container-right button:hover a {
+  color: #fff;
+}
+
+.button-filled,
+#promo .promo-banner button,
+#cards .card button,
+#shop .product button {
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: #020b4a;
+  border: none;
+  color: #fff;
+  transition: 0.1s ease;
+  font-size: 24px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.button-filled a,
+#promo .promo-banner button a,
+#cards .card button a,
+#shop .product button a {
+  text-decoration: none;
+}
+
+.button-filled:hover,
+#promo .promo-banner button:hover,
+#cards .card button:hover,
+#shop .product button:hover {
+  background-color: #fff;
+  color: #020b4a;
+  border: 3px solid #020b4a;
+}
+
+.basic-text,
+footer,
+footer h3,
+#promo .promo-banner input[type=text],
+#promo .promo-banner select,
+#promo .promo-banner p,
+#cards .card p,
+#cards .card h2,
+.container2 .text,
+#shipping-banner h3,
+#shop .product {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #020b4a;
+}
+
+.bold-text,
+#promo .promo-banner h2,
+#shop .product .price {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 30px;
+  color: #020b4a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Media Query - tablets*/
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #fbfbfa;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 40px 60px;
+    padding: 80px 0 0 10px;
+    transition: 0.2s ease;
+  }
+
+  #navbar li {
+    margin-bottom: 30px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #020b4a;
+    font-size: 24px;
+    padding-left: 30px;
+  }
+
+  #close {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #020b4a;
+    font-size: 24px;
+    display: initial;
+  }
+
+  #shopping-bag {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

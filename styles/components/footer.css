@@ -1,0 +1,50 @@
+
+/* Footer -----------------------------------------*/
+footer {
+    font-size: 18px;
+    color: #020b4a;
+    position: relative;
+  }
+  footer .column {
+    float: left;
+    width: 15%;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 400px;
+  }
+  footer h3 {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  footer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  footer li {
+    padding-bottom: 8px;
+  }
+  footer li a:hover {
+    color: #ff5c92;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  footer a {
+    text-decoration: none;
+    color: #020b4a;
+  }
+  footer .payment i,
+  footer .socials i {
+    padding-bottom: 13px;
+    padding-right: 13px;
+    font-size: 25px;
+  }
+  footer .socials i:hover {
+    color: #ff5c92;
+  }
+  footer .copyright {
+    top: 350px;
+    left: 45%;
+    position: absolute;
+  }
+  
